@@ -109,7 +109,7 @@ router.post("/sendmail", async function (request, response) {
       });
 
       var mailOptions = {
-        from: "boobalans150@gmail.com",
+        from: "kumaresancrseven@gmail.com",
         to: `${request.body.email}`,
         subject: "User verification",
         text: `${randomnum}`,
